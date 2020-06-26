@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="beer.png" />
+  <img src="./beer.png" />
 </p>
 <h1 align="center">Hold ma BEER!</h1>
 <p align="center"><i>Let your app do something important</i></p>
