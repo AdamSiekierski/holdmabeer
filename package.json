@@ -1,0 +1,25 @@
+{
+  "name": "holdmybeer",
+  "version": "1.0.0",
+  "description": "Hold ma BEEER!",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datejer/holdmybeer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datejer/holdmybeer/issues"
+  },
+  "homepage": "https://github.com/datejer/holdmybeer#readme",
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "typescript": "^3.9.5"
+  }
+}
