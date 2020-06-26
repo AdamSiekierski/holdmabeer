@@ -6,6 +6,11 @@
 
 `holdmabeer` is a simple package, that lets you create a `Promise`, that resolves after a specific time.
 
+![](https://img.shields.io/github/workflow/status/AdamSiekierski/holdmabeer/Release?style=flat-square)
+![](https://img.shields.io/bundlephobia/min/holdmabeer?style=flat-square)
+![](https://img.shields.io/david/adamsiekierski/holdmabeer?style=flat-square)
+![](https://img.shields.io/github/license/AdamSiekierski/holdmabeer?style=flat-square)
+
 ## Installation
 
 ```
