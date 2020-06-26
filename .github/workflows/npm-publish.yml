@@ -14,15 +14,27 @@ jobs:
         node: [10, 12, 14]
         os: [ubuntu-latest, windows-latest]
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@master
       - name: Use node ${{ matrix.node }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@master
         with:
           node-version: ${{ matrix.node }}
           registry-url: https://registry.npmjs.org
-      - name: install
-        run: npm install
-      - name: build
-        run: npm run build
-      - name: test
-        run: npm test
+      - run: npm install
+      - run: npm run build
+      - run: npm test
+  publish:
+    name: Publish to npm
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+        with:
+          node-version: '12.x'
+          registry-url: https://registry.npmjs.org
+      - run: npm install
+      - run: npm run build
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
