@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
-    "test": "tsc && ava"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
