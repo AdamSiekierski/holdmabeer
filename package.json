@@ -1,7 +1,7 @@
 {
   "name": "holdmabeer",
   "version": "1.0.0",
-  "description": "Hold ma BEEER!",
+  "description": "Hold ma BEEER! 🍺",
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/datejer/holdmybeer.git"
+    "url": "git+https://github.com/AdamSiekierski/holdmabeer"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/datejer/holdmybeer/issues"
+    "url": "https://github.com/AdamSiekierski/holdmabeer/issues"
   },
-  "homepage": "https://github.com/datejer/holdmybeer#readme",
+  "homepage": "https://github.com/AdamSiekierski/holdmabeer#readme",
   "devDependencies": {
     "ava": "^3.9.0",
     "typescript": "^3.9.5"
