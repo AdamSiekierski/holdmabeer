@@ -4,7 +4,8 @@
     "module": "CommonJS",
     "declaration": true,
     "outDir": "./lib",
-    "strict": true
+    "strict": true,
+    "lib": ["ES2015", "DOM"]
   },
   "include": ["src"],
   "exclude": ["node_modules", "tests", "lib"]
