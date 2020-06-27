@@ -1,5 +1,5 @@
 const test = require('ava');
-const { hold } = require('./lib');
+const { hold } = require('.');
 
 test('Hold my number', t => {
   return hold(1000).then(() => t.pass());

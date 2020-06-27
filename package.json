@@ -11,8 +11,14 @@
     "type": "git",
     "url": "git+https://github.com/AdamSiekierski/holdmabeer"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "promise",
+    "hold",
+    "wait",
+    "timeout",
+    "sleep"
+  ],
+  "author": "Adam Siekierski",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/AdamSiekierski/holdmabeer/issues"
