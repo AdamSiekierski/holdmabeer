@@ -1,6 +1,6 @@
 {
   "name": "holdmabeer",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Hold ma BEEER! 🍺",
   "main": "lib/index.js",
   "scripts": {
@@ -26,6 +26,12 @@
   "homepage": "https://github.com/AdamSiekierski/holdmabeer#readme",
   "devDependencies": {
     "ava": "^3.9.0",
+    "husky": "^4.2.5",
     "typescript": "^3.9.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test && npm run build"
+    }
   }
 }
