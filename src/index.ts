@@ -18,7 +18,7 @@ export function hold(time: any): any {
       const number = parseInt(time.split('s')[0]);
 
       return new Promise(resolve => {
-        setTimeout(() => resolve(), number);
+        setTimeout(() => resolve(), number * 1000);
       });
     } else {
       throw new Error(`Can't parse given time string: ${time}`);

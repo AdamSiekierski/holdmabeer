@@ -1,6 +1,6 @@
 {
   "name": "holdmabeer",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Hold ma BEEER! 🍺",
   "main": "lib/index.js",
   "scripts": {

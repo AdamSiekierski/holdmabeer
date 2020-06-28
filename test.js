@@ -6,9 +6,9 @@ test('Hold my number', t => {
 });
 
 test('Hold my milliseconds', t => {
-  return hold('1000ms').then(() => t.pass());
+  return hold('2000ms').then(() => t.pass());
 });
 
 test('Hold my seconds', t => {
-  return hold('1s').then(() => t.pass());
+  return hold('3s').then(() => t.pass());
 });
