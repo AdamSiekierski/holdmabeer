@@ -81,7 +81,7 @@ This project is licensed under the MIT License.
 
 ## Credits
 
-- [ejer](https://github.com/datejer) - Name of the package
+- [ejer](https://github.com/datejer) - Idea
 - [me](https://github.com/AdamSiekierski) - Code
 
 ## Shameless plug
